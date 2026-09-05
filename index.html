@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>StrongBuy Compass — Professional investment research made clearer</title>
+<meta name="description" content="StrongBuy Compass is an investment-research app in development, designed to combine professional analyst research, risk signals and long-term illustrations into clear stock and ETF ideas.">
+<meta name="theme-color" content="#061426">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+<meta property="og:title" content="StrongBuy Compass">
+<meta property="og:description" content="Professional investment research made clearer. Working Android prototype currently in development.">
+<meta property="og:type" content="website">
+</head>
+<body>
+<nav>
+ <div class="wrap navin">
+  <a class="brand" href="#"><span class="brandmark"><img src="assets/favicon.svg" alt=""></span><strong>StrongBuy <span>Compass</span></strong></a>
+  <div class="navlinks">
+   <a href="#how">How it works</a><a href="#prototype">Prototype</a><a href="#research">Research approach</a>
+   <a class="btn primary" href="mailto:contact@strongbuycompass.com">Contact</a>
+  </div>
+ </div>
+</nav>
+
+<header class="hero">
+ <div class="wrap hero-grid">
+  <div>
+   <div class="kicker"><span class="dot"></span> Working Android prototype • currently in development</div>
+   <h1>See the world's <span class="grad">strongest investment ideas</span> at a glance.</h1>
+   <p class="lead">StrongBuy Compass is being built to make professional stock and ETF research easier to understand — bringing analyst opinion, risk signals and longer-term illustrations together in one clear experience.</p>
+   <div class="hero-actions">
+    <a class="btn primary" href="#prototype">See the prototype</a>
+    <a class="btn" href="mailto:contact@strongbuycompass.com">contact@strongbuycompass.com</a>
+   </div>
+   <p class="mini">The current prototype uses demonstration investment data while commercial financial-data licensing is being evaluated. It is not a live recommendation service.</p>
+   <div class="stats">
+    <div class="stat"><b>500</b><span>Global companies targeted in the daily scan</span></div>
+    <div class="stat"><b>Top 5</b><span>Stock ideas highlighted</span></div>
+    <div class="stat"><b>Top 5</b><span>ETF ideas highlighted</span></div>
+    <div class="stat"><b>00:00</b><span>UTC scheduled daily analysis</span></div>
+   </div>
+  </div>
+  <div class="phone-shell"><img src="assets/app-home.png" alt="StrongBuy Compass Android prototype home screen"></div>
+ </div>
+</header>
+
+<main>
+<section id="how">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">The concept</div><h2>Investment research without the noise.</h2><p>The aim is not to turn StrongBuy Compass into a high-frequency trading terminal. It is designed as a daily research companion that helps people identify which opportunities may deserve deeper investigation.</p></div>
+  <div class="cards">
+   <article class="card"><div class="icon">🌍</div><h3>Global 500 scan</h3><p>Review a broad universe of large, investable companies using market, fundamental, analyst and risk information from licensed professional sources.</p></article>
+   <article class="card"><div class="icon">↗</div><h3>Top 5 Stock Ideas</h3><p>Highlight the five shares with the strongest overall combination of professional analyst confidence, business quality, valuation, momentum and risk.</p></article>
+   <article class="card"><div class="icon">▦</div><h3>Top 5 ETF Ideas</h3><p>Rank ETFs separately using factors such as cost, diversification, liquidity, structure, concentration and longer-term outlook.</p></article>
+  </div>
+ </div>
+</section>
+
+<section id="prototype">
+ <div class="wrap demo-grid">
+  <div class="screen-card"><img src="assets/app-search-online.png" alt="StrongBuy Compass server-connected search prototype"></div>
+  <div class="copy-panel">
+   <div class="eyebrow">Working prototype</div>
+   <h2>Android app + live cloud architecture.</h2>
+   <p class="lead" style="font-size:17px">The application already connects to its own backend over HTTPS, with PostgreSQL storage and a scheduled Daily Midnight Scan framework.</p>
+   <ul>
+    <li><span class="tick">✓</span><span>Server-connected Top 5 stock and ETF feed</span></li>
+    <li><span class="tick">✓</span><span>Server-powered company and ETF search with offline fallback</span></li>
+    <li><span class="tick">✓</span><span>Traffic-light style risk presentation designed for quick understanding</span></li>
+    <li><span class="tick">✓</span><span>Illustrative 5-year and 10-year investment scenarios</span></li>
+    <li><span class="tick">✓</span><span>Anonymous read-only access planned as the default user experience</span></li>
+   </ul>
+   <div class="notice"><strong>Development status:</strong> screenshots show the current working prototype. Investment names, scores and projected values may be demonstration data and should not be interpreted as current professional recommendations.</div>
+  </div>
+ </div>
+</section>
+
+<section id="research">
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Research approach</div><h2>Professional research first.</h2><p>StrongBuy Compass is being designed to combine research from established professional analysts and investment firms, giving greater weight to experienced sources with credible, verifiable track records and recent coverage.</p></div>
+  <div class="cards">
+   <article class="card"><div class="icon">◎</div><h3>Multiple viewpoints</h3><p>Rankings are intended to compare multiple professional sources rather than relying on one analyst, anonymous internet opinion or social-media hype.</p></article>
+   <article class="card"><div class="icon">◈</div><h3>Track-record weighting</h3><p>Where licensing permits, analyst history, accuracy and historical performance can contribute to how strongly an opinion is weighted.</p></article>
+   <article class="card"><div class="icon">▲</div><h3>Clear risk context</h3><p>Every idea is intended to sit alongside transparent risk signals, bull/bear reasoning and longer-term illustrations — never a guarantee of returns.</p></article>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <div class="section-head"><div class="eyebrow">Daily process</div><h2>Designed around one disciplined research cycle.</h2></div>
+  <div class="process">
+   <div class="step"><h3>Collect</h3><p>Pull licensed market, company, ETF and professional research data into the StrongBuy Compass backend.</p></div>
+   <div class="step"><h3>Normalise</h3><p>Convert different provider formats into a consistent internal research model.</p></div>
+   <div class="step"><h3>Rank</h3><p>Calculate stock and ETF scores using the StrongBuy Compass methodology and risk framework.</p></div>
+   <div class="step"><h3>Publish</h3><p>Store the daily results and make the latest research available to the app through the private API.</p></div>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="wrap">
+  <div class="cta">
+   <div><div class="eyebrow" style="color:#fff">Commercial / data partnerships</div><h2>Interested in StrongBuy Compass?</h2><p>We are currently evaluating professional financial-data, analyst-research and ETF-data providers for commercial integration into the product.</p></div>
+   <a class="btn" style="background:white;color:#12263b;border:0" href="mailto:contact@strongbuycompass.com">Contact StrongBuy Compass</a>
+  </div>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap footer-grid">
+  <div class="disclaimer"><strong style="color:#d8e3ed">Important:</strong> StrongBuy Compass is currently in development. Information shown on this site and in prototype screenshots is for product demonstration and research purposes only and does not constitute personal financial advice, an offer, or a recommendation to buy or sell any security. Investments can rise and fall in value and returns are not guaranteed.</div>
+  <div><span class="badge">© 2026 StrongBuy Compass</span><br><br><a href="mailto:contact@strongbuycompass.com">contact@strongbuycompass.com</a></div>
+ </div>
+</footer>
+<script src="assets/site.js"></script>
+</body>
+</html>
